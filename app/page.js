@@ -68,7 +68,7 @@ export default function AuthPage() {
       <div style={newStyles.card}>
         {!session ? (
           <>
-            <h2 style={newStyles.title}>{isSignUp ? 'Create Account' : 'Login'}</h2>
+            <h1 style={newStyles.title}>{isSignUp ? 'Create Account' : 'Login'}</h1>
 
             <form onSubmit={handleAuth} style={newStyles.form}>
               <div style={newStyles.inputGroup}>
