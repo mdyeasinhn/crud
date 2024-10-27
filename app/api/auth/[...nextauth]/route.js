@@ -48,7 +48,7 @@ const handler = NextAuth({
     },
   },
   pages: {
-    signIn: '/auth', // Custom sign-in/sign-up page
+    signIn: '/', // Custom sign-in/sign-up page
   },
 });
 
